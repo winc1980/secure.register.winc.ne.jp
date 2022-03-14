@@ -29,3 +29,8 @@ issueはできるだけ細かくしてください。細かくした分、confli
 - fix-*  developで見つかったバグを修正する。developから分岐し、developへマージする。
 
 例) feature-add-readme, fix-copywrite など
+
+
+#活動日時
+金曜日 16:30 ~ 18:30 
+残りたい人は残ることができます。
