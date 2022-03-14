@@ -91,7 +91,10 @@
 
       .faq a {
             color: #000;
-            font-weight: bold;
+            text-decoration: none;
+      }
+      .faq div:hover {
+          background-color: #d0d0d0;
       }
 
     </style>
@@ -211,32 +214,38 @@
       <h3>05 振り込み完了を確認できる画像を送信</h3>
       <p>領収書の画像が用意できたら、以下の振り込み確認フォームを提出してください。このフォームを提出したら、入会手続きは完了です。</p>
       <p><a href="https://forms.gle/4Q6h5oDsBBLf5eW47" class="btn btn-primary">振り込み確認用フォーム</a></p>
-      <h2 class="fw-bold mb-4 mt-5">よくあるお問合せ</h2>
+      <h2 class="fw-bold mb-4 mt-5">よくあるご質問（FAQ）</h2>
       <div class="faq">
-          <div class="card card-body">
-              <a data-bs-toggle="collapse" href="#faq1" role="button" aria-expanded="false" aria-controls="faq1">
-                      Q. 新歓に参加しなくても体験入会と本入会はできますか？
-              </a>
-              <div class="collapse" id="faq1">
-                  <p>A. できます。体験入会はTwitterやInstagramのDMまたはお問合せから受け付けています。</p>
-              </div>
-          </div>
-          <div class="card card-body">
-              <a data-bs-toggle="collapse" href="#faq2" role="button" aria-expanded="false" aria-controls="faq2">
-                Q. 入会費振り込みの期日はありますか？
-              </a>
-              <div class="collapse" id="faq2">
-                  <p>A. 入会申込書を提出してから1ヶ月以内にお振り込みください。</p>
-              </div>
-          </div>
-          <div class="card card-body">
-              <a data-bs-toggle="collapse" href="#faq3" role="button" aria-expanded="false" aria-controls="faq3">
-                Q. 会費はどのようなことに使われますか？
-              </a>
-              <div class="collapse" id="faq3">
-                  <p>A. 部門のメンバー共通で使用する教材やレンタル費用、部門で必要な備品、サーバー代、新歓や会議室代などに使われます。</p>
-              </div>
-          </div>
+            <a data-toggle="collapse" href="#faq1" role="button" aria-expanded="false" aria-controls="faq1">
+                <div class="card card-body">
+                    <span class="fw-bold text-decoration-underline mb-1">
+                        Q. 新歓に参加しなくても体験入会と本入会はできますか？
+                    </span>
+                    <div class="collapse" id="faq1">
+                        <p>A. できます。体験入会はTwitterやInstagramのDMまたはお問合せから受け付けています。</p>
+                    </div>
+                </div>
+            </a>
+            <a data-toggle="collapse" href="#faq2" role="button" aria-expanded="false" aria-controls="faq2">
+                <div class="card card-body">
+                    <span class="fw-bold text-decoration-underline mb-1">
+                        Q. 入会費振り込みの期日はありますか？
+                    </span>
+                    <div class="collapse" id="faq2">
+                        <p>A. 入会申込書を提出してから1ヶ月以内にお振り込みください。</p>
+                    </div>
+                </div>
+            </a>
+            <a data-toggle="collapse" href="#faq3" role="button" aria-expanded="false" aria-controls="faq3">
+                <div class="card card-body">
+                    <span class="fw-bold text-decoration-underline mb-1">
+                        Q. 会費はどのようなことに使われますか？
+                    </span>
+                    <div class="collapse" id="faq3">
+                        <p>A. 部門のメンバー共通で使用する教材やレンタル費用、部門で必要な備品、サーバー代、新歓や会議室代などに使われます。</p>
+                    </div>
+                </div>
+            </a>
         </div>
       <footer class="page-footer font-small">
         <div class="footer-copyright text-center py-3">
