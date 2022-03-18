@@ -21,7 +21,15 @@ h3 {
 } 
 
 footer {
-padding-top: 30px;
+    padding-top: 30px;
+}
+
+tbody {
+    border: 2px solid #eee;
+}
+
+tr:last-child {
+    border-bottom: 2px solid #eee;
 }
 
 /* 
