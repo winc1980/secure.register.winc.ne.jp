@@ -8,9 +8,6 @@
 --- GENERAL ----------------------
 */
 
-h3 {
-    margin-bottom: 1rem;
-}
 
 /* 
     --- EACH SECTION ----------------------
@@ -22,10 +19,6 @@ h3 {
     color: #ddd;
 }
 
-.faq a {
-    color: #000;
-    text-decoration: none;
-}
 .faq div:hover {
     background-color: #d0d0d0;
 }
