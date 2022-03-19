@@ -42,100 +42,58 @@
     />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@winc_w" />
-    <style>
-        @media (min-width: 1200px) {
-        .container {
-            width: 960px;
-        }
-        }
+    <link href="style.css" rel="stylesheet">
+</head>
 
-        /* 
-        --- GENERAL ----------------------
-        */
-
-        h1 {
-        padding-top: 30px;
-        }
-
-        h2 {
-        margin-bottom: 1rem;
-        }
-
-        h3 {
-        margin-bottom: 1rem;
-        }
-
-        footer {
-        padding-top: 30px;
-        }
-
-        /* 
-            --- EACH SECTION ----------------------
-        */
-
-        .register-flow-num {
-        font-size: 3rem;
-        color: #ddd;
-        }
-
-        .faq a {
-            color: #000;
-            text-decoration: none;
-        }
-        .faq div:hover {
-            background-color: #d0d0d0;
-        }
-    </style>
-    </head>
-    <body>
+<body>
     <div class="container">
-        <h1>早稲田大学コンピュータ研究会・WINC</h1>
+        <h1 class="pt-5">早稲田大学コンピュータ研究会・WINC</h1>
         <p>
-            <a href="https://www.winc.ne.jp"><i class="fas fa-link"></i>トップページ</a>
-            / Since 1967 / Internatinal Students Welcome / Recognized by Waseda
-            University
+        <a href="https://www.winc.ne.jp"
+            ><i class="fas fa-link"></i>トップページへ</a
+        >
+        / Since 1967 / Internatinal Students Welcome / Recognized by Waseda
+        University
         </p>
         <hr />
-        <div class="">
-        <h2 class="fw-bold mb-4 mt-5 heading-register">ご入会手続きの流れ</h2>
-        <p class="text-danger mb-0">
-            * 体験入会希望の方は、手続き不要です。WINCの公式Twitter、または公式InstagramにDMをください
+        <h2 class="fw-bold mb-4 mt-5">ご入会手続きの流れ</h2>
+        <p class="alert alert-danger mb-0">
+            ※ 体験入会希望の方は、WINCの公式Twitter、または公式Instagramに、「体験したい」という旨のメッセージをDMで送って下さい。
         </p>
         <div class="d-flex p-2 gap-3 justify-content-end">
             <a href="https://twitter.com/winc_w" target="_brank" class="d-block">Twitter</a>
             <a href="https://www.instagram.com/waseda_winc/" target="_brank" class="d-block">Instagram</a>
         </div>
-        </div>
-        <ul class="mb-5 fs-4 fw-bold list-unstyled register-flow">
+        <ul class="mb-5 fs-4 fw-bold list-unstyled">
             <a href="#winc-rules" class="text-decoration-none text-reset">
-                <li class="mb-3">
-                    <span class="register-flow-num">01</span> &ensp;会則の確認
+                <li class="d-flex align-items-center">
+                    <span class="register-flow-num">01</span> &ensp;&ensp;会則の確認
                 </li>
             </a>
             <a href="#submit-application" class="text-decoration-none text-reset">
-                <li class="mb-3">
-                    <span class="register-flow-num">02</span> &ensp;入会申込書の提出
+                <li class="d-flex align-items-center">
+                    <span class="register-flow-num">02</span> &ensp;&ensp;入会申込書の提出
                 </li>
             </a>
             <a href="#confirm-account" class="text-decoration-none text-reset">
-                <li class="mb-3">
-                    <span class="register-flow-num">03</span> &ensp;振込先情報の確認
+                <li class="d-flex align-items-center">
+                    <span class="register-flow-num">03</span> &ensp;&ensp;振込先情報の確認
                 </li>
             </a>
             <a href="#pay-account" class="text-decoration-none text-reset">
-                <li class="mb-3">
-                    <span class="register-flow-num">04</span> &ensp;振り込み
+                <li class="d-flex align-items-center">
+                    <span class="register-flow-num">04</span> &ensp;&ensp;振り込み
                 </li>
             </a>
             <a href="#send-image" class="text-decoration-none text-reset">
-                <li class="mb-3">
+                <li class="d-flex align-items-center">
                     <span class="register-flow-num">05</span>
-                    &ensp;振り込み完了を確認できる画像を送信
+                    &ensp;&ensp;振り込み完了を確認できる画像を送信
                 </li>
             </a>
         </ul>
         
-        <h3 id="winc-rules">01 会則の確認</h3>
+        <h3 id="winc-rules" class="mt-5">01  会則の確認</h3>
         <p>フォームを提出する前に会則を確認してください。</p>
         <p>
             <button
@@ -155,14 +113,14 @@
             </div>
         </div>
 
-        <h3 id="submit-application">02 入会申込書の提出</h3>
+        <h3 id="submit-application" class="mt-5">02 入会申込書の提出</h3>
         <div class="d-flex justify-content-center">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc4vXcwqEdL4FW1RyCOxm5LYjhRRt0rbIs46Lpxe528_I_qaA/viewform?embedded=true" width="100%" height="480" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc4vXcwqEdL4FW1RyCOxm5LYjhRRt0rbIs46Lpxe528_I_qaA/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
         </div>
         <br />
-        <h3 id="confirm-account">03 振込先情報の確認</h3>
-        <table class="table">
-            <tbody style="border: 2px solid #eee;">
+        <h3 id="confirm-account" class="mt-5">03 振込先情報の確認</h3>
+        <table class="table border">
+            <tbody>
                 <tr>
                     <th scope="row">金融機関名</th>
                     <td>みずほ銀行</td>
@@ -188,29 +146,46 @@
                     <th scope="row">口座番号</th>
                     <td>1993031</td>
                 </tr>
-                <tr style="border-bottom: 2px solid #eee;">
+                <tr>
                     <th scope="row">受取人名</th>
                     <td>ワセタ゛タ゛イカ゛クコンヒ゜ユ－タケンキユウカイＷＩＮＣ</td>
                 </tr>
             </tbody>
         </table>
 
-        <h3 id="pay-account">04 振り込み</h3>
-        <p>以上の振込先に入会費 1,000 円と、年会費 2,000 円の計3000円を納入してください。</p>
+        <h3 id="pay-account" class="mt-5">04 振り込み</h3>
+        <table class="table border">
+            <tbody>
+                <tr>
+                    <th scope="row">入会費</th>
+                    <td>1,000円</td>
+                </tr>
+                <tr>
+                    <th scope="row">年会費</th>
+                    <td>2,000円</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">合計振込金額</th>
+                    <td>3,000円</td>
+                </tr>
+            </tfoot>
+        </table>    
         <div class="alert alert-danger" role="alert">
-            <p>※振込手数料は振込人負担となります。</p>
-            <p>※領収書を写真に撮ってください。インターネットで振り込んだ場合は振り込んだことがわかるスクリーンショットを撮ってください。</p>
+            <p>※ 振込手数料は振込人負担となります。</p>
+            <p>※ 領収書を写真に撮ってください。インターネットで振り込んだ場合は振り込んだことがわかるスクリーンショットを撮ってください。</p>
         </div>
 
-        <h3 id="send-image">05 振り込み完了を確認できる画像を送信</h3>
+        <h3 id="send-image" class="mt-5">05 振り込み完了を確認できる画像を送信</h3>
         <p>領収書の画像が用意できたら、以下の振り込み確認フォームを提出してください。このフォームを提出したら、入会手続きは完了です。</p>
         <p><a href="https://forms.gle/4Q6h5oDsBBLf5eW47" class="btn btn-primary">振り込み確認用フォーム</a></p>
 
         <h2 class="fw-bold mb-4 mt-5">よくあるご質問（FAQ）</h2>
         <div class="faq">
-            <a data-toggle="collapse" href="#faq1" role="button" aria-expanded="false" aria-controls="faq1">
-                <div class="card card-body">
-                    <span class="fw-bold text-decoration-underline mb-1">
+            <a class="text-decoration-none text-reset" data-toggle="collapse" href="#faq1" role="button" aria-expanded="false" aria-controls="faq1">
+                <div class="card card-body onhover">
+                    <span class="text-decoration-underline mb-1">
                         Q. 新歓に参加しなくても体験入会と本入会はできますか？
                     </span>
                     <div class="collapse" id="faq1">
@@ -218,9 +193,9 @@
                     </div>
                 </div>
             </a>
-            <a data-toggle="collapse" href="#faq2" role="button" aria-expanded="false" aria-controls="faq2">
-                <div class="card card-body">
-                    <span class="fw-bold text-decoration-underline mb-1">
+            <a class="text-decoration-none text-reset" data-toggle="collapse" href="#faq2" role="button" aria-expanded="false" aria-controls="faq2">
+                <div class="card card-body onhover">
+                    <span class="text-decoration-underline mb-1">
                         Q. 入会費振り込みの期日はありますか？
                     </span>
                     <div class="collapse" id="faq2">
@@ -228,9 +203,9 @@
                     </div>
                 </div>
             </a>
-            <a data-toggle="collapse" href="#faq3" role="button" aria-expanded="false" aria-controls="faq3">
-                <div class="card card-body">
-                    <span class="fw-bold text-decoration-underline mb-1">
+            <a class="text-decoration-none text-reset"  data-toggle="collapse" href="#faq3" role="button" aria-expanded="false" aria-controls="faq3">
+                <div class="card card-body onhover">
+                    <span class="text-decoration-underline mb-1">
                         Q. 会費はどのようなことに使われますか？
                     </span>
                     <div class="collapse" id="faq3">
@@ -239,16 +214,13 @@
                 </div>
             </a>
         </div>
-        </div>
-
-        <footer class="page-footer font-small">
-            <div class="footer-copyright text-center py-3">
-                © 2022 Copyright:
-                <a href="https://secure.register.winc.ne.jp">早稲田大学コンピュータ研究会・WINC</a>
-            </div>
-        </footer>
-
     </div>
+    <footer class="pt-4 page-footer font-small">
+        <div class="footer-copyright text-center py-3">
+            © 2022 Copyright:
+            <a href="https://secure.register.winc.ne.jp">早稲田大学コンピュータ研究会・WINC</a>
+        </div>
+    </footer>
     
     <script
         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

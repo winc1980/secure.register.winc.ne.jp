@@ -1,0 +1,24 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+/* 
+--- GENERAL ----------------------
+*/
+
+
+/* 
+    --- EACH SECTION ----------------------
+*/
+
+
+.register-flow-num {
+    font-size: 3rem;
+    color: #ddd;
+}
+
+.onhover:hover {
+    background-color: #d0d0d0;
+}
