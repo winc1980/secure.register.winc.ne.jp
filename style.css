@@ -16,9 +16,9 @@
 
 .register-flow-num {
     font-size: 3rem;
-    color: blue;
+    color: rgb(77, 77, 194);
 }
 
 .onhover:hover {
-    background-color: #d0d0d0;
+    background-color: rgb(166, 173, 240);
 }
