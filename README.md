@@ -37,3 +37,4 @@ issueはできるだけ細かくしてください。細かくした分、confli
 ### ブランチ練習
 - Asukacchi
 
+- shunm0312
