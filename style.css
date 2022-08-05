@@ -22,3 +22,12 @@
 .onhover:hover {
     background-color: #d0d0d0;
 }
+
+.footer_icon{
+    display: flex;
+    top: 500px;
+    left:500px;
+    float:left;
+    margin-left:50px;
+    margin-bottom: 50px;
+}
